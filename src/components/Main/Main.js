@@ -6,11 +6,11 @@ export default function Main() {
   const { posts, error, loading } = usePosts();
   return (
     <div className="main">
-      <span>{error.length === 0 ? <>{error}</> : <></>}</span>
-      <span>{loading ? <h2>Loading...</h2> : <></>}</span>
+      <span>{error && <>{error}</>}</span>
+      <span>{loading && <h2 className="loading">Loading...</h2>}</span>
       <div className="post-box">
-        {posts.map((post) => (
-          <PostCard key={post.data.id} {...post.data} />
+        {posts.map(({ data }) => (
+          <PostCard key={data.id} {...data} />
         ))}
       </div>
     </div>
