@@ -1,0 +1,32 @@
+.posts-container {
+  width: 80%;
+  max-width: 38rem;
+  margin: 1rem;
+  border: 2px solid #919487;
+  border-radius: 5px;
+}
+
+.title {
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px #919487;
+  border-style: dashed;
+  justify-content: space-between;
+}
+
+.comments {
+  color: #c9f646;
+  font-size: smaller;
+  margin: 1rem;
+}
+
+.author {
+  color: #919487;
+  font-size: smaller;
+  margin: 1rem;
+}

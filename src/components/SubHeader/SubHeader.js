@@ -5,7 +5,8 @@ export default function SubHeader() {
   return (
     <div className="SubHeader-container">
       <h1>
-        r\<span className="SubHeader-greentext">Business</span>
+        <span className="SubHeader-text">r/</span>
+        <span className="SubHeader-greentext">Business</span>
       </h1>
     </div>
   );

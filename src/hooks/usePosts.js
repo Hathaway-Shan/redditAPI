@@ -11,7 +11,7 @@ export function usePosts() {
       try {
         setLoading(true);
         const response = await fetchPosts();
-        setPosts(response);
+        setPosts(response.data.children);
         setLoading(false);
       } catch (e) {
         setError(e.message);
