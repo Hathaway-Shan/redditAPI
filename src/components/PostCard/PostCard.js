@@ -1,5 +1,5 @@
 import React from 'react';
-import './PostCards.css';
+import './PostCard.css';
 
 export default function PostCards({ title, num_comments, author_fullname }) {
   return (
