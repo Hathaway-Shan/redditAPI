@@ -1,0 +1,15 @@
+.SubHeader-container {
+  width: 80%;
+  padding: 0 1rem;
+  max-width: 30rem;
+  background-image: linear-gradient(to right, #4d4f48, #000000);
+  border-radius: 5px;
+}
+
+.SubHeader-text {
+  color: #ffffff;
+}
+
+h1 .SubHeader-greentext {
+  color: #c9f646;
+}
